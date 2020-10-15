@@ -1,0 +1,13 @@
+name: gov50-shiny
+title: gov50-shiny
+username:
+account: sreyasudireddy
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 3026432
+bundleId: 3746701
+url: https://sreyasudireddy.shinyapps.io/gov50-shiny/
+when: 1602797870.32661
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: README.md|test.R|data/social_distancing.csv|final/app_final.R|test/.DS_Store|test/app.R

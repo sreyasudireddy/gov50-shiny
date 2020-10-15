@@ -9,6 +9,7 @@ library(fec16)
 
 state.names <- c("CA", "NY", "KS")
 
+
 ######################################################################################
 ######################################################################################
 #
@@ -38,7 +39,7 @@ ui <- fluidPage(
   sidebarPanel(
 
     selectInput(inputId = "selected_state",                  # a name for the value you choose here
-                label = "Choose a state from this list!",    # the name to display on the slider
+                label = "Select a State",    # the name to display on the slider
                 choices = state.names),                      # your list of choices to choose from
 
     sliderInput(inputId = "selected_size",                   # a name for the value you choose here
